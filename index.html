@@ -96,9 +96,9 @@
     }
 
     // ---- Clic sur la cible ----
-    dot.addEventListener("click", function() {
-        message.textContent = "gagné";
-    });
+    dot.addEventListener("pointerdown", () => {
+    message.textContent = "gagné";
+});
 
     animate();
 </script>
